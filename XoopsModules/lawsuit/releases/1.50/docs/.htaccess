@@ -1,0 +1,14 @@
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^contact-us/(.*?)/(.*?)/([0-9]+).html 																modules/lawsuit/index.php?id=$3																	[L,NC,QSA]
+RewriteRule ^contact-us/(.*?)/([0-9]+).html 																	modules/lawsuit/index.php?cid=$2																[L,NC,QSA]
+RewriteRule ^contact-us/index.html 																				modules/lawsuit/index.php																		[L,NC,QSA]
+RewriteRule ^contact-us/		 																				modules/lawsuit/index.php																		[L,NC,QSA]
+
+
+
+
+
