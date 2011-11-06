@@ -1,5 +1,5 @@
 <?php
-// $Id: modinfo.php,v 1.05 2009/06/24 23:45:00 wishcraft Exp $
+// $Id$
 
 // The name of this module
 define("_MI_LAWSUIT_NAME","Lawsuit");

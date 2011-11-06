@@ -1,5 +1,5 @@
 <?php
-// $Id: admin.php,v 1.05 2009/06/24 23:45:00 wishcraft Exp $
+// $Id$
 
 define("_AM_LAWSUIT_PAGES", "Pages");
 define("_AM_LAWSUIT_CATEGORY", "Categories");
