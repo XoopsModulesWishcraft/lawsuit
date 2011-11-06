@@ -1,5 +1,5 @@
 <?php
-// $Id: xoops_version.php,v 1.05 2009/06/24 23:45:00 wishcraft Exp $
+// $Id$
 
 
 $modversion['name'] = _MI_LAWSUIT_NAME;

@@ -1,5 +1,5 @@
 <?php
-// $Id: common.php,v 1.05 2009/06/24 23:45:00 wishcraft Exp $
+// $Id$
 
 include 'admin_header.php';
 include_once XOOPS_ROOT_PATH . '/class/xoopsform/grouppermform.php';

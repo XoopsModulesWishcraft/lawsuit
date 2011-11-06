@@ -1,5 +1,5 @@
 <?php
-// $Id: menu.php,v 1.05 2009/06/24 23:45:00 wishcraft Exp $
+// $Id$
 global $adminmenu;
 $adminmenu = array();
 $adminmenu[0]['title'] = _MI_LAWSUIT_ADMENU1;

@@ -1,5 +1,5 @@
 <?php
-// $Id: uploader.php,v 1.05 2009/06/24 23:45:00 wishcraft Exp $
+// $Id$
 // ------------------------------------------------------------------------ //
 // XOOPS - PHP Content Management System					  //
 // Copyright (c) 2000 XOOPS.org						   //

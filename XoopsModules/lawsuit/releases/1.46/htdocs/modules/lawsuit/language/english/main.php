@@ -1,5 +1,5 @@
 <?php
-// $Id: main.php,v 1.05 2009/06/24 23:45:00 wishcraft Exp $
+// $Id$
 define("_LAWSUIT_MSG_SUBJECT", '%s');	// Site name removed since verion 1.22
 define("_LAWSUIT_MSG_SENT", "Your message has been sent.<br />Thank you for your comments.");
 
