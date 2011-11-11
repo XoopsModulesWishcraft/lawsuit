@@ -60,17 +60,17 @@ switch($op){
 			$i=0;
 			foreach($response->getVar('response') as $key => $res) {
 				$i++;
-				if (is_array($res)) {
-					echo '<td align="center"><strong>'.$key.':&nbsp;</strong>';
-					foreach($res as $keyb => $value) {
-						echo '<em>'.$value.($keyb<sizeof($res)-1?', ':'').'</em>';	
+				if ($i<=2) {
+					if (is_array($res)) {
+						echo '<td align="center"><strong>'.$key.':&nbsp;</strong>';
+						foreach($res as $keyb => $value) {
+							echo '<em>'.$value.($keyb<sizeof($res)-1?', ':'').'</em>';	
+						}
+						echo '</td>';
+					} else {
+						echo '<td align="center"><strong>'.$key.':&nbsp;</strong>'.$res.'</td>';
 					}
-					echo '</td>';
-				} else {
-					echo '<td align="center"><strong>'.$key.':&nbsp;</strong>'.$res.'</td>';
 				}
-				if ($i==2)
-					continue;
 			}
 			
 			echo '<td align="center"><a href="'.$_SERVER['PHP_SELF'].'?op=view&id='.$responseid.'">'._AM_FORM_VIEW_RESPONSE.'</a></td></tr>';
