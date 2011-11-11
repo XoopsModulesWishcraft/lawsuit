@@ -1,0 +1,12 @@
+========================================
+ 2011/11/10 11:50:00 Version 1.51 STABLE
+========================================
+ - Changed SEO Method of index.php  (Wishcraft)
+ - Changed allow for iframe, width & height $_GET Switch on main index /index.php  (Wishcraft)
+ - Changed $GLOBALS['flowplayerModule'] population checking in language/english/modinfo.php (Wishcraft)
+ - Changed Admin GUI Defaults and About Box admin/about.php (Wishcraft)
+ - Added Admin GUI Defaults and Dashboard admin/dashboard.php (Wishcraft)
+ - Added Admin GUI Images Frameworks/moduleclasses/icons/ (Wishcraft)
+ - Added XOOPS 2.5.x Admin GUI - xoops_version.php variable added (Wishcraft)
+ - Added Response Browsing and Reporting - admin/reports.php variable added (Wishcraft)
+ 
