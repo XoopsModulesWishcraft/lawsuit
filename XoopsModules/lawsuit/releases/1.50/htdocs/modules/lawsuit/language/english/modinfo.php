@@ -23,12 +23,12 @@ define("_MI_LAWSUIT_TEXT_MAX","Default maximum length of text boxes");
 define("_MI_LAWSUIT_TAREA_ROWS","Default rows of text areas");
 define("_MI_LAWSUIT_TAREA_COLS","Default columns of text areas");
 
-define("_MI_LAWSUIT_HTACCESS", "Do SEO HTAcess");
-define("_MI_LAWSUIT_HTACCESS_DESC", "Allow SEO HTAccess (to enabled you must put the .htaccess in the root)");
-define("_MI_LAWSUIT_BASEURL", "Base of SEO of URL");
-define("_MI_LAWSUIT_BASEURL_DESC", "Base of URL for HTAccess (to enabled you must put the .htaccess in the root)");
-define("_MI_LAWSUIT_ENDOFURL", "End of SEO of URL");
-define("_MI_LAWSUIT_ENDOFURL_DESC", "End of URL file for HTAccess (to enabled you must put the .htaccess in the root)");
+define("_MI_LAWSUIT_HTACCESS","Do SEO HTAcess");
+define("_MI_LAWSUIT_HTACCESS_DESC","Allow SEO HTAccess (to enabled you must put the .htaccess in the root)");
+define("_MI_LAWSUIT_BASEURL","Base of SEO of URL");
+define("_MI_LAWSUIT_BASEURL_DESC","Base of URL for HTAccess (to enabled you must put the .htaccess in the root)");
+define("_MI_LAWSUIT_ENDOFURL","End of SEO of URL");
+define("_MI_LAWSUIT_ENDOFURL_DESC","End of URL file for HTAccess (to enabled you must put the .htaccess in the root)");
 
 //	preferences
 define("_MI_LAWSUIT_MAIL_CHARSET","Text encoding for sending emails");
